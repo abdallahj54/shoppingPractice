@@ -15,6 +15,12 @@ public class ScannerHelper {
      * getDouble(String question)
      */
 
-    // Create a method which will create and return scanner object
+    public static String getString(String question){
+        System.out.println(question);
+        return scan().nextLine();
+    }
 
+    public static Scanner scan(){
+        return new Scanner(System.in);
+    }
 }
