@@ -20,6 +20,16 @@ public class ScannerHelper {
         return scan().nextLine();
     }
 
+    public static int getInt(String question){
+        System.out.println(question);
+        return scan().nextInt();
+    }
+
+    public static double getDouble(String question){
+        System.out.println(question);
+        return scan().nextDouble();
+    }
+
     public static Scanner scan(){
         return new Scanner(System.in);
     }
